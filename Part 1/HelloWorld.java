@@ -1,3 +1,4 @@
+
 /*
 	What's up?
 
@@ -38,9 +39,7 @@ public class HelloWorld
 			For using it, we need to call the print function which is in the System.out class
 
 			You can use wither "print" or "println", the difference is that println adds a new line after printing.
-			The arguments of the class are a simple String
-
-			Want to know more about it? go to the documentation: https://docs.oracle.com/javase/tutorial/essential/io/formatting.html
+			The arguments of the class are a simple String			
  		*/
 		System.out.println("Hello world");
 

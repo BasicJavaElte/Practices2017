@@ -41,7 +41,7 @@ public class RepetitionAndConditionalStructures{
       What about printing all the square roots of the numbers from 0 to 15?
     */
     // for an integer variable i, which starts equal zero, while it is lower than 15, add one
-    // for (initialization; termination; increment); (More: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
+    // for (initialization; termination; increment); 
     for(int i=0; i<15; i++){
       double r = Math.sqrt(i);
       System.out.format("The square root of %d is %d \n", i, r);
