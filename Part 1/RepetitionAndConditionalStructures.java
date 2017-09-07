@@ -31,8 +31,10 @@ public class RepetitionAndConditionalStructures{
     }
 
     /*
-      TODO: We are not sure if the problem is Mary or John having more oranges,
+        TODO:TODO TODO TODO TODO TODO TODO TODO
+          We are not sure if the problem is Mary or John having more oranges,
           create a new while structure to avoid any injustice with Mary
+        TODO:TODO TODO TODO TODO TODO TODO TODO
     */
   }
 
@@ -41,14 +43,16 @@ public class RepetitionAndConditionalStructures{
       What about printing all the square roots of the numbers from 0 to 15?
     */
     // for an integer variable i, which starts equal zero, while it is lower than 15, add one
-    // for (initialization; termination; increment); 
+    // for (initialization; termination; increment);
     for(int i=0; i<15; i++){
       double r = Math.sqrt(i);
       System.out.format("The square root of %d is %d \n", i, r);
     }
 
     /*
-      TODO: Let's show that we can do it, and print all the square rise of the EVEN numbers
+      TODO:TODO TODO TODO TODO TODO TODO TODO
+        Let's show that we can do it, and print all the square rise of the EVEN numbers
+      TODO:TODO TODO TODO TODO TODO TODO TODO
     */
 
   }

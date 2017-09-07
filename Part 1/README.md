@@ -19,7 +19,11 @@ Operators:
 * [Binary and Unary Operators (x+y, x*y, x++. --x etc)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html)
 
 Functions:
-* [Out sweet "Sysout" functions print, println, format etc](https://docs.oracle.com/javase/tutorial/essential/io/formatting.html)
+* [Our sweet "Sysout" functions print, println, format etc](https://docs.oracle.com/javase/tutorial/essential/io/formatting.html)
 
 Packages:
 * [Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
+* [Random](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)
+
+Arrays:
+* [Java Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
