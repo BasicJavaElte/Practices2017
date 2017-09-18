@@ -45,6 +45,11 @@ Yes I know, you found out the amazing power of pressing tab and having the auto-
     # Show the current directory
     ls
 
+### Installing JDK on Windows
+
+[Installing:](http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html)
+
+[Creating Environment variables: ](https://www.mkyong.com/java/how-to-set-java_home-on-windows-10/)
 
 
 ## Exercises
