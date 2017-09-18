@@ -46,7 +46,7 @@ public class RepetitionAndConditionalStructures{
     // for (initialization; termination; increment);
     for(int i=0; i<15; i++){
       double r = Math.sqrt(i);
-      System.out.format("The square root of %d is %d \n", i, r);
+      System.out.format("The square root of %d is %f \n", i, r);
     }
 
     /*
