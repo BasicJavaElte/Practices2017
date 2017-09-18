@@ -4,7 +4,15 @@ Here we have a simple HelloWorld example =) Let's go through it.
 
 If you are using your computer, you should first install the JVM, check how to do it on the  [Official Documentation](https://www.java.com/en/download/help/download_options.xml), when installing on Windows, you may need to configure System Variables. **Java is already configured on the Lab machines**.
 
-## How to compile using Java?
+## How to compile and execute using Java?
+
+    // Compile:
+    javac MyClassExampleName.java
+
+    // Execute
+    java MyClassExampleName
+
+Yes I know, you found out the amazing power of pressing tab and having the auto-complete name of the class, but it is not compiling, that's because you should not add the extension.
 
 ### Cheatsheet for navigating on the command lines:
 
