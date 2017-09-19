@@ -5,15 +5,6 @@
 */
 public class RepetitionAndConditionalStructures{
 
-  public static void whileExample(){
-
-  }
-
-  public static void forExample(){
-
-
-  }
-
   public static void main(String[] args) {
       /*
         Here we have a situation where Mary and John have different number of oranges each
@@ -53,7 +44,7 @@ public class RepetitionAndConditionalStructures{
       // for (initialization; termination; increment);
       for(int i=0; i<15; i++){
         double r = Math.sqrt(i);
-        
+
         //System.out.println("The square root of "+i+" is "+r);
       }
 
