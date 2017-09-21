@@ -6,13 +6,6 @@ This repo is part of the Practices of Basic Java for the course in the semester 
 
 If you see any mistake or would like to collaborate with us, you are more than welcome to open issues and pull requests.
 
-## Course
-
-* [Part one](https://github.com/BasicJavaElte/Practices2017/tree/master/Part%201) - Basic sintax, variables, repetitions, exception handling...
-* Object and Classes, Inheritance, Methods
-* Interfaces, Abstract classes
-* Lambda functions, annotations, data structures
-
 ## Course Rules
 * At the most 3 unjustified absences.
 * Homework practices = 20%,

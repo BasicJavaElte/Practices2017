@@ -1,5 +1,6 @@
 # Getting Started
 
+**[LECTURE MATERIAL](http://kitlei.web.elte.hu/segedanyagok/foliak/java/en-java-bsc/01basics.pdf)**
 Here we have a simple HelloWorld example =) Let's go through it.
 
 If you are using your computer, you should first install the JVM, check how to do it on the  [Official Documentation](https://www.java.com/en/download/help/download_options.xml), when installing on Windows, you may need to configure System Variables. **Java is already configured on the Lab machines**.
