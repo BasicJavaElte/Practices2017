@@ -19,7 +19,7 @@ public class RepetitionAndConditionalStructures{
       // For now, WHILE john HAS LESS oranges than Mary, we give one more orange to John
       while (johnOranges<maryOranges){
         // This funny instruction adds +1 to the integer, you can use the same with -- (minus)
-        johnOranges ++;
+        johnOranges++;
 
         /*
           NEW: yeap, this format thing is new for us.
