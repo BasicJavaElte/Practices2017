@@ -11,7 +11,7 @@
 * Inheritance
 
 
-## What we gonna do together
+## What we are going to do Today
 * Create a class Person
 * Create all the private properties to it
 * Create the methods setters, getters, constructor, empty constructor, equals and toString
