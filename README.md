@@ -16,6 +16,9 @@ If you see any mistake or would like to collaborate with us, you are more than w
 * IDEs are **not** allowed during the practices, assignments with IDEs projects will not be considered.
 * Extra consultations need to be requested in advance.
 
+## Challenges
+* [Challenge 1](http://www.hackerrank.com/elte-basicjava-module-1)
+
 ## Links
 Calendar of the courses, holidays, cancelled classes, materials...
 * [Charles' Website](ferraricharles.github.io)

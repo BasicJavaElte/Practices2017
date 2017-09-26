@@ -54,7 +54,7 @@ Yes I know, you found out the amazing power of pressing tab and having the auto-
 
 
 ## Exercises
-This module has a HackerRank challenge, you can check it on the following page: [www.hackerrank.com/elte-basicjava-module-1](www.hackerrank.com/elte-basicjava-module-1)
+This module has a HackerRank challenge, you can check it on the following page: [www.hackerrank.com/elte-basicjava-module-1](http://www.hackerrank.com/elte-basicjava-module-1)
 
 
 ## Documentation regarding the examples:
