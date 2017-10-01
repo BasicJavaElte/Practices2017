@@ -6,6 +6,7 @@
 
 * Packages
 * The java.util Packages
+* Exceptions handling (Try Catch)
 * Create a time calculator class
 
 
