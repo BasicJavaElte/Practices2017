@@ -51,7 +51,7 @@ For the same of simplicity we will cover only common era trips.
 
 If the dates are the same, they are not future either past
 
-The toString method should print From [date] to [date] and say the direction. For example "From 1991/01/01 to 22/12/2017, we are going to the future"
+The toString method should print From [date] to [date] and say the direction. For example "From 1991/01/01 to 2017/12/17, we are going to the future"
 
 
 ## Documentation regarding the examples:
