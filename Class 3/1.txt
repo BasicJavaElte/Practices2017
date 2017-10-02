@@ -1,0 +1,18 @@
+Exercise number: 1
+How does the GC tracks if an object can be deleted or not?
+
+(A) According to the reference Types and its reachability
+(B) Being called by a developer command
+(C) Only by the time it was instantiate
+(D) Only by the time it was last used
+(E) By the the time it was last used and its instantiation
+
+
+Exercise number: 2
+Regarding static fields, which of the following is not true?
+
+(A) The instances don’t own an independent copy of it
+(B) It exists before any instances of the class are made
+(C) it is stored on the heap
+(D) The instance belongs to the object
+(E) The instance belongs to the class
