@@ -28,15 +28,15 @@ It should be instantiated in the following ways:
     new DateItinerary();
 
     // Constructor with dates
-    new DateItinerary(Current, Goal);
+    new DateItinerary(current, goal);
 
 It should have the following methods:
 
     // Getters and setters
 
-    bool isInTheFuture()
+    boolean isInTheFuture()
 
-    bool isInThePast()
+    boolean isInThePast()
 
     String toString()
 
