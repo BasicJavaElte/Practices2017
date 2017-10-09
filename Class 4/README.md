@@ -20,8 +20,8 @@ Your job is to create an academic system where George can register all the stude
 
 ### Things you need to create
 
-* Classroom class, with two ArrayList (one for each Classroom) and all the students in it
-* A menu using switch case to run through the system options
+* Classroom class, with one ArrayList and the students (Persons) in it.
+* A menu using switch case to run through the system options.
 * Menu with the options add, remove and see the sorted list of students
 * Function that takes two Classroom objects and check if there are students attending more than one class
 
