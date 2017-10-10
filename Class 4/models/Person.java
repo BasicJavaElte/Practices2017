@@ -1,3 +1,5 @@
+package models;
+
 import java.util.Date;
 
 public class Person {
@@ -16,9 +18,9 @@ public class Person {
 
   // My equals method
 	public boolean equals(Person other) {
-		if (this.name != other.name)
+		if (!this.name.equals(other.name))
 			return false;
-		if (this.birthday != other.birthday)
+		if (!this.birthday.equals(other.birthday))
 			return false;
 
 		return true;
