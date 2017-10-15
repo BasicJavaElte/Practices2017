@@ -25,6 +25,3 @@ Let's create a software for calculating basic squared matrices operations
 
 ## Recommendations
 Create a constant number on the Main that represents the amount of elements, this way, we can play with it differently
-
-## Documentation regarding the examples:
-* [Java Util ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)
