@@ -46,7 +46,14 @@ public class MyFirstArrayList{
 					System.out.println("My classrooom has "+classroom.howManyStudents());
 					break;
 				case "remove":
-					System.out.println("remove");
+					System.out.println("Who you want to remove");
+					String studentName = scanner.next();
+					if(classroom.removeStudent(studentName)){
+						System.out.println("Adios");
+						System.out.println("My classrooom has "+classroom.howManyStudents());
+					}else{
+						System.out.println("Student not removed");
+					}
 					break;
 				case "list":
 					System.out.println("list");

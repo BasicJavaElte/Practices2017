@@ -25,4 +25,18 @@ public class Classroom{
 	public int howManyStudents(){
 		return students.size();
 	}
+	
+	public boolean removeStudent(String name){
+		for(int i=0; i<students.size(); i++){
+			
+			Person student=students.get(i);
+			
+			if(student.getName().equalsIgnoreCase(name)){
+				students.remove(i);
+				return true;
+			}
+		}
+
+		return false; 	
+	}
 }
