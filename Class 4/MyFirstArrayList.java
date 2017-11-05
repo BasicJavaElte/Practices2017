@@ -56,10 +56,12 @@ public class MyFirstArrayList{
 					}
 					break;
 				case "list":
-					System.out.println("list");
+					classroom.sort();
+					classroom.printAll();
 					break;
 
 			}
+			
 		}while(!userCommand.equals("exit"));
 
 	}
