@@ -10,69 +10,24 @@ import models.Classroom;
 
 
 public class MyFirstArrayList{
-
-	public static void main(String args[]){
-		Scanner scanner = new Scanner(System.in);
-		SimpleDateFormat myFormat= new SimpleDateFormat("yyyyMMdd");
-		String userCommand;
-
-		Classroom classroom = new Classroom();
+	static Scanner scanner = new Scanner(System.in);
+	static SimpleDateFormat myFormat= new SimpleDateFormat("yyyyMMdd");
+	static Classroom classroom = new Classroom();
+	
+	public static void main(String args[]){		
 		
-				
+		String userCommand;							
 		do{
 			System.out.println("Say 'exit' 'add', 'remove' , 'addTeacher', or 'list' ");
 			userCommand = scanner.next();
 
 			switch(userCommand){
 				case "add":
-
-					System.out.println("Say the name of the Person");
-					String name = scanner.next();
-
-
-					System.out.println("Say the birthday of the Person(YYYYMMDD)");
-					Date day = new Date();
-
-					boolean validDate = false;
-					while(!validDate){
-						try{
-							day = myFormat.parse(scanner.next());
-							validDate = true;
-						}catch(ParseException e){
-							System.out.println("Invalid date, type it again");
-							validDate = false;
-						}
-					}
-
-					Person p = new Person(name, day);
-					
-					System.out.println("My classrooom has "+classroom.howManyStudents());
+					addStudent();
 					break;
 					
 				case "addTeacher":
-					System.out.println("Say the name of the Person");
-					String teacherName = scanner.next();
-					
-					System.out.println("Say the name of the department");
-					String department = scanner.next();
-
-					System.out.println("Say the birthday of the Person(YYYYMMDD)");
-					Date tDay = new Date();
-
-					boolean tValidDate = false;
-					while(!tValidDate){
-						try{
-							tDay = myFormat.parse(scanner.next());
-							tValidDate = true;
-						}catch(ParseException e){
-							System.out.println("Invalid date, type it again");
-							tValidDate = false;
-						}
-					}
-
-					Teacher t = new Teacher(teacherName, tDay, department);
-					
-					System.out.println(t.toString());
+					addTeacher();
 					break;
 					
 				case "remove":
@@ -93,7 +48,56 @@ public class MyFirstArrayList{
 			}
 			
 		}while(!userCommand.equals("exit"));
+	}
+		
+	public static void addStudent(){
+	  System.out.println("Say the name of the Person");
+	  String name = scanner.next();
 
+
+	  System.out.println("Say the birthday of the Person(YYYYMMDD)");
+	  Date day = new Date();
+
+	  boolean validDate = false;
+	  while(!validDate){
+			try{
+			  day = myFormat.parse(scanner.next());
+			  validDate = true;
+			}catch(ParseException e){
+			  System.out.println("Invalid date, type it again");
+			  validDate = false;
+			}
+	  }
+
+	  Person p = new Person(name, day);		
+	  classroom.addStudent(p);
+	  System.out.println("My classrooom has "+classroom.howManyStudents());
+	}
+	public static void addTeacher(){
+		
+		System.out.println("Say the name of the Person");
+		String teacherName = scanner.next();
+					
+		System.out.println("Say the name of the department");
+		String department = scanner.next();
+
+		System.out.println("Say the birthday of the Person(YYYYMMDD)");
+		Date tDay = new Date();
+
+		boolean tValidDate = false;
+		while(!tValidDate){			
+			try{
+				tDay = myFormat.parse(scanner.next());
+				tValidDate = true;
+			}catch(ParseException e){
+				System.out.println("Invalid date, type it again");
+				tValidDate = false;
+			}
+		}
+
+		Teacher t = new Teacher(teacherName, tDay, department);
+		classroom.setTeacher(t);
+		System.out.println(t.toString());
 	}
 
 }
