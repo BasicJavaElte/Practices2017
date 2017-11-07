@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
-import models.Person;
+import models.Student;
 import models.Teacher;
 import models.Classroom;
 
@@ -49,15 +49,9 @@ public class MyFirstArrayList{
 			
 		}while(!userCommand.equals("exit"));
 	}
-		
-	public static void addStudent(){
-	  System.out.println("Say the name of the Person");
-	  String name = scanner.next();
-
-
-	  System.out.println("Say the birthday of the Person(YYYYMMDD)");
+	
+	public static Date getValidDate(){
 	  Date day = new Date();
-
 	  boolean validDate = false;
 	  while(!validDate){
 			try{
@@ -68,9 +62,22 @@ public class MyFirstArrayList{
 			  validDate = false;
 			}
 	  }
+	  return day;
+	}
+		
+	public static void addStudent(){
+	  System.out.println("Say the name of the student");
+	  String name = scanner.next();
 
-	  Person p = new Person(name, day);		
-	  classroom.addStudent(p);
+
+	  System.out.println("Say the birthday of the student(YYYYMMDD)");
+	  Date birthday = getValidDate();
+
+	  System.out.println("Say the enrolment of the student(YYYYMMDD)");
+	  Date enrolmentDay = getValidDate();
+
+	  Student s = new Student(name, birthday, enrolmentDay);		
+	  classroom.addStudent(s);
 	  System.out.println("My classrooom has "+classroom.howManyStudents());
 	}
 	public static void addTeacher(){

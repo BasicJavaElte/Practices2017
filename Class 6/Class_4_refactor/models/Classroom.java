@@ -3,15 +3,15 @@ package models;
 import java.util.ArrayList;
 
 public class Classroom{
-	private ArrayList<Person> students;
+	private ArrayList<Student> students;
 	private Teacher teacher;
 
 	//getters and setters
-	public ArrayList<Person> getStudents(){
+	public ArrayList<Student> getStudents(){
 		return this.students;
 	}
 
-	public void setStudents(ArrayList<Person> students){
+	public void setStudents(ArrayList<Student> students){
 		this.students = students;
 	}
 	
@@ -24,11 +24,11 @@ public class Classroom{
 	}
 
 	public Classroom(){
-		students = new ArrayList<Person>();
+		students = new ArrayList<Student>();
 	}
 
-	public void addStudent(Person p){
-		students.add(p);
+	public void addStudent(Student s){
+		students.add(s);
 	}
 
 	public int howManyStudents(){
@@ -38,10 +38,10 @@ public class Classroom{
 	public void sort(){	
 		for(int i=0; i<students.size()-1; i++){
 			for(int j=i+1; j<students.size(); j++){
-				Person s1 = students.get(i);
-				Person s2 = students.get(j);
+				Student s1 = students.get(i);
+				Student s2 = students.get(j);
 				if(s1.getName().compareTo(s2.getName())>0){
-					Person aux = s1;
+					Student aux = s1;
 					students.set(j,aux);
 					students.set(i, s2);
 				}
@@ -51,7 +51,7 @@ public class Classroom{
 	}
 	
 	public void printAll(){
-		for(Person p: students){
+		for(Student p: students){
 			System.out.println(p);
 		}
 	}
@@ -59,7 +59,7 @@ public class Classroom{
 	public boolean removeStudent(String name){
 		for(int i=0; i<students.size(); i++){
 			
-			Person student=students.get(i);
+			Student student=students.get(i);
 			
 			if(student.getName().equalsIgnoreCase(name)){
 				students.remove(i);
