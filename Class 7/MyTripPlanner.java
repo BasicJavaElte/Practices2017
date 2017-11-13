@@ -4,16 +4,7 @@ import models.TrainTrip;
 public class MyTripPlanner{
 
   public static void printIfWorthsTrain(AirportTrip airport, TrainTrip train){
-    if (!airport.sameTrip(train)){
-      System.out.println("invalid trip");
-    }else
-    if(airport.averageTime()+2<train.averageTime()){
-      System.out.println("She will prefer the train");
-    }else
-    if(train.getMaximunClass()=='A'){
-      System.out.println("She will prefer the train");
-    }else
-    System.out.println("She will plefer the plane");
+
 
   }
 
