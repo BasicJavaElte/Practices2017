@@ -14,7 +14,7 @@
 
 The guys from the Picture are Pedro and Bino, they are waiting their late salary.
 
-All the errors should be handle, in this clase and only today, you can print it out and say "Bino! This is a cilada" 
+All the errors should be handle, in this clase and only today, you can print it out and say "Bino! This is a cilada"
 
 
 Your job is to create a software capable to register people and their information, there is another team working on the payment checks. They said that any employee class which has implemented the functions bellow will work just fine for their system.
@@ -25,9 +25,9 @@ double calculateNetWage() // returning the net wage.
 
 ![Pedro e Bino](http://cdn.naosalvo.com.br/2017/05/Carga-Pesada-1.jpg)
 
-Since you are a good programmer, you already know that all you need to do with the given information is to create an Interface called **PaymentCheck** where you will define how the classes should be implemented in order to create the payment checks.
+Since you are a good programmer, you already know that all you need to do with the given information is to create an Interface called "PaymentCheck" where you will define how the classes should be implemented in order to create the payment checks.
 
-You also will use the already good and working Person class, and, create a **Driver** class where you will manage the salary calculations.
+You also will use the already good and working Person class, and, create a Driver class where you will manage the salary calculations.
 
 The Driver license should have the following methods:
 * Constructor with the driver license
@@ -43,3 +43,6 @@ And of course, Driver must implement the payment check, you don't want them not 
 [Interfaces (From Oracle)] (https://docs.oracle.com/javase/tutorial/java/concepts/interface.html)
 
 [polymorphism (From Oracle)] (https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
+
+## New Challenge 8)
+Available on the link: https://www.hackerrank.com/second-challenge
