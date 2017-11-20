@@ -25,9 +25,9 @@ double calculateNetWage() // returning the net wage.
 
 ![Pedro e Bino](http://cdn.naosalvo.com.br/2017/05/Carga-Pesada-1.jpg)
 
-Since you are a good programmer, you already know that all you need to do with the given information is to create an Interface called "PaymentCheck" where you will define how the classes should be implemented in order to create the payment checks.
+Since you are a good programmer, you already know that all you need to do with the given information is to create an Interface called **PaymentCheck** where you will define how the classes should be implemented in order to create the payment checks.
 
-You also will use the already good and working Person class, and, create a Driver class where you will manage the salary calculations.
+You also will use the already good and working Person class, and, create a **Driver** class where you will manage the salary calculations.
 
 The Driver license should have the following methods:
 * Constructor with the driver license
