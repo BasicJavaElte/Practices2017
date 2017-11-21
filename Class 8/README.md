@@ -29,7 +29,7 @@ Since you are a good programmer, you already know that all you need to do with t
 
 You also will use the already good and working Person class, and, create a Driver class where you will manage the salary calculations.
 
-The Driver license should have the following methods:
+The Driver class should have the following methods:
 * Constructor with the driver license
 * setAditionalNightHours(int hours) that pays 40 euros per additional extra hours
 * setGottenFines (double fines) that is deduced from the driver's salary
