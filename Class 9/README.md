@@ -13,7 +13,7 @@ The requirements are:
 * Array calculations must always implement the method setArray(double [] a);
 
 The classes that he is expecting to instantiate for now are:
-* Factor (which calculates the factoring of a given number)
+* Factorial (which calculates the factorial of a given number)
 * MinimalMultiple which takes two numbers and returns the smaller number that is multiple of the two
 * AverageArray which takes an array and returns the normal average
 
