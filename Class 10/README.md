@@ -29,8 +29,10 @@ The patients are handled by cases, so that, every case is started as soon as the
 * Entry Date
 * Exit date (empty in case the patient is still in the hospital)
 
-Your software should handle the following situations: (data that are not given like dates can be made up)
 
+## Cases
+
+Your software should handle the following situations: (data that are not given like dates can be made up)
 
 Unknown patient arrives, is sent to the general doctor, who finds out he has a brain problem and then the patient is sent to Doctor Lee, a neurologist.
 
@@ -44,7 +46,7 @@ Use your best knowledge to avoid unnecessary repeating of code and to make the b
 Make a listing by doctor where you insert the doctor's license and get all the patients assigned to him
 
 ## Recommendations and pseudo-grading
-Implementation of the classes and one use case is worth two points
+Implementation of the classes and one case worths two points
 
 Implementation of the change of doctors is one point
 
