@@ -12,8 +12,9 @@ public class SalaryCalculator{
     try{
       birthday = myFormat.parse("19900101");
       Driver d = new Driver("Josh",birthday,"PK99324" );
-      d.setAditionalNightHours(40);
-      d.setGottenFines(0);
+      // d.setGrossSalary(300);
+      // d.setAditionalNightHours(40);
+      // d.setGottenFines(0);
       System.out.println(d.getDiscounts());
       System.out.println(d.getGrossWage());
     }catch(Exception r){}
